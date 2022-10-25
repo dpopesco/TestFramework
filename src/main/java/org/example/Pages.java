@@ -6,4 +6,9 @@ public class Pages {
         HomePage homePage = new HomePage();
         return homePage;
     }
+
+    public static AuthorsPage authorsPage() {
+        AuthorsPage authorsPage = new AuthorsPage();
+        return authorsPage;
+    }
 }
