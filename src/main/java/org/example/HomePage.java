@@ -15,7 +15,7 @@ public class HomePage {
     public void goTo() {
 
         Browser.goTo(url);
-        Browser.declineCookie();
+        Browser.declineCookies();
 
     }
 

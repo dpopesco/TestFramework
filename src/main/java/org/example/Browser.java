@@ -20,7 +20,7 @@ public class Browser {
         return driver.getTitle();
     }
 
-    public static void declineCookie() {
+    public static void declineCookies() {
         String path = "//button[contains(@class,'button decline')]";
         WebElement declineButton = driver.findElement(By.xpath(path));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));

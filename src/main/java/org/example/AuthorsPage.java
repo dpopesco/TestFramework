@@ -7,14 +7,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class AuthorPages {
+public class AuthorsPage {
     static String url = "https://www.pluralsight.com/authors";
     static String title = "Authors | Pluralsight";
 
     public void goTo() {
 
         Browser.goTo(url);
-        Browser.declineCookie();
+        Browser.declineCookies();
 
     }
 

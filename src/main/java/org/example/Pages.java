@@ -7,8 +7,8 @@ public class Pages {
         return homePage;
     }
 
-    public static AuthorPages authorPages() {
-        AuthorPages authorPages = new AuthorPages();
-        return authorPages;
+    public static AuthorsPage authorsPage() {
+        AuthorsPage authorsPage = new AuthorsPage();
+        return authorsPage;
     }
 }
