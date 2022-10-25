@@ -7,10 +7,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class HomePage {
-
-    static String url = "https://www.pluralsight.com";
-    static String title = "Pluralsight - The tech workforce development company";
+public class AuthorPages {
+    static String url = "https://www.pluralsight.com/authors";
+    static String title = "Authors | Pluralsight";
 
     public void goTo() {
 
